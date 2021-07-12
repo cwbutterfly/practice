@@ -1,0 +1,131 @@
+
+div{
+	padding: 5px;
+	margin: 3px;
+}
+
+
+#header{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FF4500;
+	border-radius: 15px;
+	height: 15%;
+	color: #FFFFFF;
+	font-family: georgia;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 2px 2px 3px #FF4500;
+	background-image: url("../imgs/Logo.png");
+	background-repeat: no-repeat;
+	background-size: 10%;
+	background-position: 5% center;
+	background-color: #FF4500;
+ }
+
+
+#navArea{
+	font-size: 14px;
+	float: left;
+	width: 24%;
+}
+
+
+button{
+	color: white;
+	background-image: linear-gradient(to right, #FF4500, #8000FF);
+	width: 240px;
+	height: 36px;
+	position: relative;
+	left: 10%;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+#main {
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding:3px;
+}
+
+
+#content{
+	display: inline-block; 
+	width: 72.8%;
+	font-family: calibri;
+}
+
+
+#footer{
+	height: 12%;
+	text-align: center;
+	font-size: 11px;
+	font-family: calibri;
+}
+
+hr{
+	border-color: #FF4500;
+}
+
+h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: calibri, sans-serif;
+}
+
+h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: georgia, sans-serif;
+	font-size: 24px;
+	color: #8000FF;
+}
+
+#Contact_Us{
+	text-align: center;
+}
+
+
+form {
+	margin: 0 auto;
+  	width: 56%;
+  	padding: 10px;
+  	border: 2px solid #FF4500;
+  	border-radius: 15px;
+  	margin-top: 5px;
+}
+
+
+label {
+  	display: inline-block;
+  	width: 150px;
+  	text-align: left;
+  	font-weight: bold;
+}
+
+input, 
+textarea {
+  	font: 12px calibri;
+  	width: 350px;
+  	border: 1px solid #999999;
+  	vertical-align: top;
+}
+
+input:focus, 
+textarea:focus {
+	border-color: #000000;
+}
+
+input{
+	height: 18px;
+}
+
+
+.button {
+  	padding-left: 110px; 
+}

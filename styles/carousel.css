@@ -1,0 +1,69 @@
+.carousel{
+	background: #FF4500;
+}
+
+.carousel, #caros{
+	height: 115px;
+}
+
+.carousel{
+	position: relative;
+	width: 275px;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 5px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.50);
+}
+
+.carousel #caro{
+	display: inline-block;
+	height: 200px;
+	float: left;
+	position: relative;
+	width: 300px;
+}
+
+.carousel #caros{
+	position: absolute;
+	left: 0;
+	top: -15px;
+	width: 6000px;
+	list-style: none;
+	margin-left: -50px;
+	transition: left .3s linear;
+	-moz-transition: left .3s linear;
+	-o-transition: left .3s linear;
+	-webkit-transition: left .3s linear;
+}
+
+.carousel-container{
+	margin: 0 auto;
+	padding: 0;
+	width: 275px;
+}
+
+.carousel-container img{
+	width: 100%;
+	padding: 0 10px;
+}
+
+.carousel #caros{
+	animation: slide-animation 15s infinite;
+}
+
+
+.carousel #caros:hover{
+	animation-play-state: paused;
+}
+
+@keyframes slide-animation {
+	20% {left: 0}
+	25% {left: -300px}
+	45% {left: -300px}
+	50% {left: -600px}
+	70% {left: -600px}
+	75% {left: -900px}
+	98% {left: -900px}
+	100% {left: 0}
+}
