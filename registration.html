@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration Page</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/registration.css">
+	</head>
+
+	<body>
+
+		<div>
+			<div class="form-box">
+				<div class="button-box">
+					<div id="btn"></div>
+					<button type="button" class="toggle-btn" onclick="login()">Log-in</button>
+					<button type="button" class="toggle-btn" onclick="register()">Register</button>
+				</div>
+				
+				<div class="social-icons">
+					<img src="./imgs/fb.png">
+					<img src="./imgs/tw.png">
+					<img src="./imgs/gp.png">
+				</div>
+				
+				<form id="login" class="input-group">
+					<input type="text" class="input-field" placeholder="User Id" required="">
+					<input type="text" class="input-field" placeholder="Enter Password" required="">
+					<input type="checkbox" class="check-box"><span>Remember Password</span>
+					<button type="submit" class="submit-btn">Log in</button>
+				</form>
+
+				<form id="register" class="input-group">
+					<input type="text" class="input-field" placeholder="User Id" required="">
+					<input type="email" class="input-field" placeholder="Email" required="">
+					<input type="text" class="input-field" placeholder="Enter Password" required="">
+					<input type="checkbox" class="check-box"><span>I agree to the Terms and Conditions</span>
+					<button type="submit" class="submit-btn">Register</button>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<p><b>Cousteau Services Limited</b><br><b>Address:</b> #65 Carli Bay Road, Couva, Trinidad W.I.</p>
+			All other names and logos are trademarks of their respective owners | Copyright
+			<script type="text/JavaScript">
+				document.write(new Date().getFullYear());
+			</script>
+		</div>	
+
+		<script>
+			var x = document.getElementById("login");
+			var y = document.getElementById("register");
+			var z = document.getElementById("btn");
+
+			function register(){
+				x.style.left = "-400px";
+				y.style.left = "50px";
+				z.style.left = "50px";
+			}
+
+			function login(){
+				x.style.left = "50px";
+				y.style.left = "-450px";
+				z.style.left = "0";
+			}
+		</script>
+
+	</body>
+</html>
